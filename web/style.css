@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+.main{
+    background-color: orange;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 5px solid orange;
+    border-radius: 5px;
+}
+button{
+    position: relative;
+    top: 20%;
+    left: 4%;
+    width: 70px;
+    height: 60px;
+    margin: 10px 10px;
+    font-size: x-large;
+}
+input{
+    position: relative;
+    top: 7%;
+    left: 8%;
+    height: 40px;
+    width: 430px;
+    font-size: x-large;
+}
+p{
+    text-align: center;
+    font-size: xx-large;
+}
+#equalto{
+    position: absolute;
+    top: 68.25%;
+    height: 140px;
+    left: 79%;
+}
